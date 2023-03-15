@@ -52,7 +52,7 @@ public class SalaryApplication {
     }
 
 
-    public ArrayList<Employ> toString(Employ employ) {
-     return employs;
+    public Employ toString(Employ employ) {
+     return employ;
     }
 }
