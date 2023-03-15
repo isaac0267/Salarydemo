@@ -26,11 +26,17 @@ public class SalaryApplication {
             employ.setlName(sc.nextLine());
             String fulName= employ.getfName()+" "+employ.getlName();
             System.out.println("Your whole name is "+" "+fulName);
-
         }else{
             System.out.println("Thanks for your time");
         }
+
     }
+    public static double salary(double weeklyHour, double perHour) {
+        double checkWeekly=weeklyHour*perHour;
+        return checkWeekly*52;
+
+    }
+
 
 
 }
