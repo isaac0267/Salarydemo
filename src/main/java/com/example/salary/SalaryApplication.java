@@ -11,7 +11,6 @@ import java.util.Scanner;
 public class SalaryApplication {
     @GetMapping("/")
      // creat a method
-    // This is new commend.
 
     public static void registerName() {
         String user="";
