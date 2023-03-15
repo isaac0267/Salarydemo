@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class SalaryApplication {
     @GetMapping("/")
      // creat a method
-
+    // I make soome comment in this class. 
     public static void registerName() {
         String user="";
         Scanner sc = new Scanner(System.in);
