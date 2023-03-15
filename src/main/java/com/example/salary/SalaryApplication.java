@@ -12,8 +12,7 @@ public class SalaryApplication {
     @GetMapping("/")
      // creat a method
     // This is new commend.
-    // hhhhhh
-    // Helllllllllllo
+
     public static void registerName() {
         String user="";
         Scanner sc = new Scanner(System.in);
