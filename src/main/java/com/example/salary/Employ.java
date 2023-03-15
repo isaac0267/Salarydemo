@@ -4,6 +4,15 @@ public class Employ {
     String fName;
     String lName;
     int employId;
+    // let`s create a constructor her
+    public Employ(String fName, String lName, int employId) {
+     this.fName=fName;
+     this.lName=lName;
+     this.employId=employId;
+    }
+   public Employ() {
+
+   }
 
     // getter for the employ;
      public String getfName() {
